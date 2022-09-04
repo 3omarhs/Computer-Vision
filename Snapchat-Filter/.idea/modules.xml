@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/Desktop/New folder (3)/.idea/New folder (3).iml" filepath="$USER_HOME$/Desktop/New folder (3)/.idea/New folder (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../SnapChatFilterExample-master/SnapChatFilterExample-master/.idea/SnapChatFilterExample-master.iml" filepath="$PROJECT_DIR$/../../SnapChatFilterExample-master/SnapChatFilterExample-master/.idea/SnapChatFilterExample-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Snapchat-Filter-using-OpenCV-master.iml" filepath="$PROJECT_DIR$/.idea/Snapchat-Filter-using-OpenCV-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../snapchat-filters-opencv-master/.idea/snapchat-filters-opencv-master.iml" filepath="$PROJECT_DIR$/../../snapchat-filters-opencv-master/.idea/snapchat-filters-opencv-master.iml" />
+    </modules>
+  </component>
+</project>
