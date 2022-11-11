@@ -1,10 +1,15 @@
 from os import walk
+
+
+justTest = False
+# justTest = True
 allA = []
 b = {}
 a = {}
+
 class imagesData():
     def __init__(self):
-        mypath = r"C:\Users\omarh\Desktop\dataset_brand_cut"
+        mypath = "photos/dataset_brand_cut"
         global a
         global b
         global allA
@@ -20,19 +25,21 @@ class imagesData():
                             childListB.append(ch_dirpath+'\\'+ch_filenames[j])
                         elif 'after' in ch_filenames[j]:
                             childListA.append(ch_dirpath + '\\' + ch_filenames[j])
-                        # break
+                        if justTest == True:
+                            break
                 a[dirnames[i]]=childListA
-                b[dirnames[i]]=childListB
+                if justTest == True:
+                    b[dirnames[i]]=childListA
+                else:
+                    b[dirnames[i]]=childListB
                 allA.extend(childListA)
                 # print(len(a[dirnames[i]]))
             break
-
         print(a)
         print('*'*85000)
         print(b)
         print('*'*85000)
         print(allA)
-
 
         # try readsing images:
         '''
@@ -43,5 +50,5 @@ class imagesData():
             cv2.imshow("preview..", x)
         '''
 
-
-# imagesData()
+if justTest == True:
+    imagesData()
